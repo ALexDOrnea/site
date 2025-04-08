@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import MemberCard from "../components/MemberCard.astro";
+import team from "../data/team.json";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gândacii din calculator - Hackathon Team</title>
+  </head>
+  <body>
+    <header>
+      <h1>Gândacii din calculator</h1>
+      <p>"Cand e frate langa frate moare o eroare pe noapte"</p>
+    </header>
+
+    <section class="team">
+      {team.map(member => (
+        <MemberCard {...member} />
+      ))}
+    </section>
+  </body>
+</html>

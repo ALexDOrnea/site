@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Szabo Adam-Rares",
+    "university": "Universitatea Politehnica Bucure\u0219ti",
+    "faculty": "Electronic\u0103, Telecomunica\u021bii \u0219i Tehnologia Informa\u021biei",
+    "year": "Anul 1",
+    "image": "/member1.jpg"
+  },
+  {
+    "name": "Dornea Alexandru",
+    "university": "Universitatea Politehnica Bucure\u0219ti",
+    "faculty": "Electronic\u0103, Telecomunica\u021bii \u0219i Tehnologia Informa\u021biei",
+    "year": "Anul 1",
+    "image": "/member2.jpg"
+  },
+  {
+    "name": "Grigore George-Alexandru",
+    "university": "Universitatea Politehnica Bucure\u0219ti",
+    "faculty": "Electronic\u0103, Telecomunica\u021bii \u0219i Tehnologia Informa\u021biei",
+    "year": "Anul 1",
+    "image": "/member3.jpg"
+  }
+]

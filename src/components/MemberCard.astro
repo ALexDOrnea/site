@@ -1,0 +1,42 @@
+---
+const { name, university, faculty, year, image } = Astro.props;
+---
+
+<div class="member">
+  <img src={image} alt={name} />
+  <h3>{name}</h3>
+  <p>{university}</p>
+  <p>{faculty}</p>
+  <p>{year}</p>
+</div>
+
+<style>
+.member {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.member:hover {
+  transform: translateY(-5px);
+}
+.member img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00bcd4;
+  margin-bottom: 1rem;
+}
+.member h3 {
+  margin: 0.3rem 0;
+}
+.member p {
+  margin: 0.2rem;
+  font-size: 0.95rem;
+  color: #ddd;
+}
+</style>
